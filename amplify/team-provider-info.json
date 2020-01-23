@@ -1,0 +1,15 @@
+{
+    "env": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amazonsdkgettingstar-env-213228-authRole",
+            "UnauthRoleArn": "arn:aws:iam::352765517868:role/amplify-amazonsdkgettingstar-env-213228-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::352765517868:role/amplify-amazonsdkgettingstar-env-213228-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-amazonsdkgettingstar-env-213228-deployment",
+            "UnauthRoleName": "amplify-amazonsdkgettingstar-env-213228-unauthRole",
+            "StackName": "amplify-amazonsdkgettingstar-env-213228",
+            "StackId": "arn:aws:cloudformation:us-east-1:352765517868:stack/amplify-amazonsdkgettingstar-env-213228/ffa5dc20-38d9-11ea-a85a-12dc156c2e93",
+            "AmplifyAppId": "d18mbneirl8uyu"
+        }
+    }
+}

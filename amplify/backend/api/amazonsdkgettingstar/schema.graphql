@@ -1,0 +1,16 @@
+type Album @model {
+  id: ID!
+  name: String!
+  pictures: [Picture] @connection(name: "AlbumPictures")
+}
+type Picture @model {
+  id: ID!
+  title: String!
+  album: Album @connection(name: "AlbumPictures")
+  comments: [Comment] @connection(name: "PictureComments")
+}
+type Comment @model {
+  id: ID!
+  content: String
+  Picture: Picture @connection(name: "PictureComments")
+}
